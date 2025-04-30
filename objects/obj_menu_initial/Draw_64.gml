@@ -32,3 +32,4 @@ for(var i = 0; i < length_menu; i++){
 draw_set_font(-1);
 draw_set_halign(-1);
 draw_set_valign(-1);
+ 
