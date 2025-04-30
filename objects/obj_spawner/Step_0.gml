@@ -1,22 +1,18 @@
-spawn_timer--;
-
-if (spawn_timer <= 0) {
-    // Posição dos 4 cantos
+spawn_timer_enemy--;
+if (spawn_timer_enemy <= 0 && !instance_exists(obj_spaceship)) {
     var w = room_width;
     var h = room_height;
 
-    // Canto superior esquerdo
-    instance_create_layer(0, 0, "Instances_1", obj_enemy);
+    instance_create_layer(0, 0, "Instances_1", obj_enemy);          // Superior esquerdo
+    instance_create_layer(w - 1, 0, "Instances_1", obj_enemy);      // Superior direito
+    instance_create_layer(0, h - 1, "Instances_1", obj_enemy);      // Inferior esquerdo
+    instance_create_layer(w - 1, h - 1, "Instances_1", obj_enemy);  // Inferior direito
 
-    // Canto superior direito
-    instance_create_layer(w, 0, "Instances_1", obj_enemy);
+    spawn_timer_enemy = 4 * room_speed;
+}
 
-    // Canto inferior esquerdo
-    instance_create_layer(0, h, "Instances_1", obj_enemy);
-
-    // Canto inferior direito
-    instance_create_layer(w, h, "Instances_1", obj_enemy);
-
-    // Reinicia o timer
-    spawn_timer = 4 * room_speed;
+if (spawn_timer_spaceship <= 0) {
+    instance_create_layer(room_width / 2, 96, "Instances_1", obj_spaceship);
+} else {
+    spawn_timer_spaceship--;
 }

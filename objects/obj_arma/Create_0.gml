@@ -1,0 +1,1 @@
+global.munition = 16;

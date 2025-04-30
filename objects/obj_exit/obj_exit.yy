@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_exit",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_exit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Group_Cenaries",
-    "path":"folders/Notes/Objects/Group_Cenaries.yy",
+    "name":"Groups_RealsObjs",
+    "path":"folders/Notes/Objects/Groups_RealsObjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_parede",
-    "path":"sprites/spr_parede/spr_parede.yy",
+    "name":"spr_exit",
+    "path":"sprites/spr_exit/spr_exit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

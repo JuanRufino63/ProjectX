@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Group_Cenaries",
-    "path":"folders/Objects/Group_Cenaries.yy",
+    "path":"folders/Notes/Objects/Group_Cenaries.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -15,13 +15,9 @@ draw_set_color(c_white);
 
 // Desenha o texto do HUD
 draw_text(panel_x + offset + 20, panel_y + 20, "Nome: Nitcholas");
-draw_text(panel_x + offset + 20, panel_y + 50, "HP: " + string(global.hp));
-draw_text(panel_x + offset + 20, panel_y + 80, "Habilidade: Linguiceta");
+draw_text(panel_x + offset + 20, panel_y + 50, "HP: " + string(global.hp_player));
+draw_text(panel_x + offset + 20, panel_y + 80, "Munição: " + string(global.munition));
 
 // Reset
 draw_set_alpha(1);
 draw_set_color(c_white);
-
-if(object_exists(obj_hub)){
-	draw_text(16, 48, "objeto");
-}
