@@ -20,7 +20,19 @@ for(var i = 0; i < length_menu; i++){
 	var y2 = _hgui  / 2 + _hstr / 2 + _hstr * i; //top left
 	
 	if(point_in_rectangle(_mx, _my, x1, y1, x2, y2)){
-		scale[i] = lerp(scale[i],1.4, 0.15);		
+		scale[i] = lerp(scale[i],1.4, 0.15);
+		switch lista_menu_inicial[i]{
+			case lista_menu_inicial[0]:
+				if(mouse_check_button(mb_left)){
+					room_goto_next();
+				}
+				break;
+			case lista_menu_inicial[1]:
+				if(mouse_check_button(mb_left)){
+					game_end();
+				}
+				break;
+		}
 	}
 	else{
 		scale[i] = lerp(scale[i], 1, 0.15);
