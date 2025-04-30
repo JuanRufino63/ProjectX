@@ -1,5 +1,7 @@
 global.hp_player = 10; //Vida player
-global.exp_player = 0;
+global.exp_player = 0; //Exp player
+lvl_player = 1; //Level player
+lvl_up = 100;
 
 //knockback system
 knockback_timer = 0;

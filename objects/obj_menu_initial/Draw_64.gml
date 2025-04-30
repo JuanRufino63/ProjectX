@@ -27,7 +27,7 @@ for(var i = 0; i < length_menu; i++){
 					room_goto_next();
 				}
 				break;
-			case lista_menu_inicial[1]:
+			case lista_menu_inicial[2]:
 				if(mouse_check_button(mb_left)){
 					game_end();
 				}
