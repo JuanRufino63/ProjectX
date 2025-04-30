@@ -9,8 +9,8 @@
   "name":"obj_arma",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Groups_RealsObjs",
+    "path":"folders/Objects/Groups_RealsObjs.yy",
   },
   "parentObjectId":null,
   "persistent":true,

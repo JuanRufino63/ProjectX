@@ -10,8 +10,8 @@
   "name":"obj_control",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Groups_ImaginareObjs",
+    "path":"folders/Objects/Groups_ImaginareObjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

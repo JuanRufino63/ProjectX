@@ -15,3 +15,8 @@ else if(keyboard_check(vk_down)){
 if(keyboard_check(ord("R"))){
 	game_restart();
 }
+#region States
+if(global.hp == 0){
+	show_message("Você morreu!");
+	game_restart();
+}

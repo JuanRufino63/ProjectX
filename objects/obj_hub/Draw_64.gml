@@ -15,7 +15,7 @@ draw_set_color(c_white);
 
 // Desenha o texto do HUD
 draw_text(panel_x + offset + 20, panel_y + 20, "Nome: Nitcholas");
-draw_text(panel_x + offset + 20, panel_y + 50, "HP: 100");
+draw_text(panel_x + offset + 20, panel_y + 50, "HP: " + string(global.hp));
 draw_text(panel_x + offset + 20, panel_y + 80, "Habilidade: Linguiceta");
 
 // Reset

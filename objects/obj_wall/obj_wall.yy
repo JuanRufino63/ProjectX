@@ -6,8 +6,8 @@
   "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Group_Cenaries",
+    "path":"folders/Objects/Group_Cenaries.yy",
   },
   "parentObjectId":null,
   "persistent":false,
