@@ -1,5 +1,6 @@
 global.hp_player = 10; //Vida player
 global.exp_player = 0; //Exp player
+global.hp_max = 10;
 lvl_player = 1; //Level player
 lvl_up = 100;
 

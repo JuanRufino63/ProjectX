@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_chao",
-    "path":"sprites/spr_chao/spr_chao.yy",
+    "name":"spr_ground",
+    "path":"sprites/spr_ground/spr_ground.yy",
   },
   "spriteMaskId":null,
   "visible":true,
