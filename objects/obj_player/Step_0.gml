@@ -1,3 +1,6 @@
+if(global.pause == 1){
+	exit;
+}
 #region Movimentation
 if(keyboard_check(vk_left)){
 	x -= spd;	
@@ -33,6 +36,18 @@ if (knockback_timer > 0) {
         invulneravel = false;
     }
 }
+#endregion
+#region Shaders
+//Flash
+if(isHit){
+	flash_alpha = 1;
+	isHit = 0;
+}
+if(flash_alpha > 0){
+	flash_alpha -= 0.05
+}
+
+//Reduce flash
 #endregion
 #region Funcionamento das variáveis globais
 if(global.hp_player <= 0){

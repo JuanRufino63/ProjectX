@@ -1,1 +1,0 @@
-draw_text(64, room_width / 2, room_timer div 60);

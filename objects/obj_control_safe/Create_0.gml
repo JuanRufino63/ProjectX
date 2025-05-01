@@ -1,1 +1,0 @@
-room_timer = 10 * room_speed;

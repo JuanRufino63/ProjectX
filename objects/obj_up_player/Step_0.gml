@@ -9,15 +9,17 @@ if (hud_visible) {
     var buy_w = sprite_get_width(spr_buy);
     var buy_h = sprite_get_height(spr_buy);
 
-    if (mouse_x > buy_x and mouse_x < buy_x + buy_w and
-        mouse_y > buy_y and mouse_y < buy_y + buy_h) {
-
-        if (mouse_check_button_pressed(mb_left)) {
-            if (hp_ups < hp_ups_max) {
-                hp_ups += 1;
-				global.hp_max += 5;
-				global.hp = global.hp_max;
-            }
-        }
-    }
+    var padding = 8; // aumenta o tamanho da área clicável
+	
+	if (point_in_rectangle(mouse_x, mouse_y,
+	                       buy_x - padding, buy_y - padding,
+	                       buy_x + buy_w + padding, buy_y + buy_h + padding)) {
+	    if (mouse_check_button_pressed(mb_left)) {
+	        if (hp_ups < hp_ups_max) {
+	            hp_ups += 1;
+	            global.hp_max += 5;
+	            global.hp_player = global.hp_max;
+	        }
+	    }
+	}
 }

@@ -12,3 +12,6 @@ knockback_dy = lengthdir_y(forca, dir);
 // Ativa estado de knockback
 knockback_timer = room_speed; // 1 segundo
 invulneravel = true;
+
+// Ativa o shaders
+isHit = 1;

@@ -1,3 +1,6 @@
+if(global.pause == 1){
+	exit;
+}
 spawn_timer_enemy--;
 if (spawn_timer_enemy <= 0 && !instance_exists(obj_spaceship)) {
     var w = room_width;

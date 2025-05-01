@@ -1,3 +1,6 @@
+if(global.pause == 1){
+	exit;
+}
 // Define se o HUD deve aparecer
 if (keyboard_check(vk_tab)) {
     target_visible = 1;
