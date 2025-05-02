@@ -13,8 +13,8 @@
   "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Groups_RealsObjs",
-    "path":"folders/Notes/Objects/Groups_RealsObjs.yy",
+    "name":"Groups_Enemies",
+    "path":"folders/Notes/Objects/Groups_Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

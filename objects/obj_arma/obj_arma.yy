@@ -9,8 +9,8 @@
   "name":"obj_arma",
   "overriddenProperties":[],
   "parent":{
-    "name":"Groups_RealsObjs",
-    "path":"folders/Notes/Objects/Groups_RealsObjs.yy",
+    "name":"Groups_Guns",
+    "path":"folders/Notes/Objects/Groups_Guns.yy",
   },
   "parentObjectId":null,
   "persistent":true,

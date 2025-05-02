@@ -1,2 +1,3 @@
 spawn_timer_enemy = 1 * room_speed; // 4 segundos
-spawn_timer_spaceship = 25 * room_speed; // 10 segundos
+create_spaceship = 0;
+global.number_enemy = 0;

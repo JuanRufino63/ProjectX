@@ -8,6 +8,7 @@ if (instance_exists(obj_player)) {
 }
 if(hp_inimigo == 0){
 	instance_destroy();
+	global.number_enemy--;
 	global.exp_player += 100;
 }
 

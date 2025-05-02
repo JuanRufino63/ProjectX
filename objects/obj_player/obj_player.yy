@@ -16,8 +16,8 @@
   "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Groups_RealsObjs",
-    "path":"folders/Notes/Objects/Groups_RealsObjs.yy",
+    "name":"Group_Players",
+    "path":"folders/Notes/Objects/Group_Players.yy",
   },
   "parentObjectId":null,
   "persistent":true,

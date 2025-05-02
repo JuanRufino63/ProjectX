@@ -12,3 +12,9 @@ if(keyboard_check(vk_escape)){
 	global.pause = 1;
 }
 #endregion
+if(global.spawn_timer_spaceship <= 0){
+	texto_tempo = "CORRA PARA A NAVE!";
+	if(room == RoomSafe){
+		global.spawn_timer_spaceship = 25 * room_speed;
+	}
+}
