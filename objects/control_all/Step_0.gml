@@ -8,8 +8,20 @@ if(room == RoomSafe){
 }
 #region Pause System
 //funcionamento da variavel pause
-if(keyboard_check(vk_escape)){
-	global.pause = 1;
+// Ativando o pause (só se não estiver pausado e tempo de espera zerado)
+if (!global.pause && time_stop == 0) {
+	if (keyboard_check_pressed(vk_escape)) {
+		global.pause = 1;
+		time_stop = 5; // evita toggle imediato
+	}
+}
+// Enquanto pausado, espera os 5 frames e permite despausar
+if (global.pause) {
+	if (time_stop > 0) {
+		time_stop--;
+	} else if (keyboard_check_pressed(vk_escape)) {
+		global.pause = 0;
+	}
 }
 #endregion
 if(global.spawn_timer_spaceship <= 0){
