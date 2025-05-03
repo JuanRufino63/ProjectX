@@ -24,9 +24,15 @@ if (global.pause) {
 	}
 }
 #endregion
-if(global.spawn_timer_spaceship <= 0){
-	texto_tempo = "CORRA PARA A NAVE!";
+if(global.spawn_timer_spaceship == 0){
+	texto_tempo = lista_falas_tempo[0];
+	if(global.number_enemy == 0){
+		texto_tempo = lista_falas_tempo[1];
+	}
 	if(room == RoomSafe){
 		global.spawn_timer_spaceship = 25 * room_speed;
 	}
+}
+else{
+	texto_tempo = lista_falas_tempo[2];
 }

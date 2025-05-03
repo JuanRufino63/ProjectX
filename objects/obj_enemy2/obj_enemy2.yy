@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_buy",
-  "eventList":[],
+  "%Name":"obj_enemy2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_buy",
+  "name":"obj_enemy2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Group_Buttons",
-    "path":"folders/Notes/Objects/Group_Buttons.yy",
+    "name":"Groups_Enemies",
+    "path":"folders/Notes/Objects/Groups_Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy_parent",
+    "path":"objects/obj_enemy_parent/obj_enemy_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_buy",
-    "path":"sprites/spr_buy/spr_buy.yy",
+    "name":"spr_enemy2",
+    "path":"sprites/spr_enemy2/spr_enemy2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

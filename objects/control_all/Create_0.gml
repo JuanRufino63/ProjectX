@@ -7,6 +7,13 @@ time_stop = 0; //variavel para espera
 global.pause = 0;
 texto_tempo = "Tempo Restante";
 
+#region Variaveis Globais
 //Tempo para aparecer a nave;
 global.spawn_timer_spaceship = 25 * room_speed; // 10 segundos
 global.spawn_total_spaceship = 25* room_speed;
+global.number_enemy = 0;
+#endregion
+
+//listas
+lista_falas_tempo = ["MATE TODOS OS INIMIGOS", "CORRA PARA A NAVE",
+					"TEMPO RESTANTE"];
