@@ -61,3 +61,6 @@ if(global.exp_player >= lvl_up){
 }
 	
 #endregion
+
+
+

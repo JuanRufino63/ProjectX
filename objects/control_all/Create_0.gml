@@ -12,6 +12,7 @@ texto_tempo = "Tempo Restante";
 global.spawn_timer_spaceship = 25 * room_speed; // 10 segundos
 global.spawn_total_spaceship = 25* room_speed;
 global.number_enemy = 0;
+global.bones = 0;
 #endregion
 
 //listas

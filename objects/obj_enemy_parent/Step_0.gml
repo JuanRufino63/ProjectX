@@ -11,10 +11,24 @@ if (instance_exists(obj_player)) {
     var dir = point_direction(x, y, obj_player.x, obj_player.y);
     motion_set(dir, speed);
 }
-if(hp_inimigo == 0){
+if(hp_inimigo <= 0){
 	instance_destroy();
 	global.number_enemy--;
 	global.exp_player += 100;
+	var amount = irandom_range(1, 3); // Quantidade de moedas aleatória
+	for (var i = 0; i < amount; i++) {
+		var dir_x = 20;
+		var dir_y = 10;
+		if(i % 2 == 1){
+			dir_x *= -1;
+			dir_y *= -1;
+		}
+		else{
+			dir_x *= +1;
+			dir_y *= +1;
+		}
+	    instance_create_layer(x + i * dir_x, y + i * dir_y, "Instances_1", obj_bones);
+	}
 }
 
 //Flash
