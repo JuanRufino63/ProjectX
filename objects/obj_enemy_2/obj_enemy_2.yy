@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_up_player",
+  "%Name":"obj_enemy_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_up_player",
+  "name":"obj_enemy_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Groups_RealsObjs",
-    "path":"folders/Objects/Groups_RealsObjs.yy",
+    "name":"Groups_Enemies",
+    "path":"folders/Objects/Groups_Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy_parent",
+    "path":"objects/obj_enemy_parent/obj_enemy_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_up_player",
-    "path":"sprites/spr_up_player/spr_up_player.yy",
+    "name":"spr_enemy2",
+    "path":"sprites/spr_enemy2/spr_enemy2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

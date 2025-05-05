@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_up_player",
+  "%Name":"obj_vomito",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_up_player",
+  "name":"obj_vomito",
   "overriddenProperties":[],
   "parent":{
-    "name":"Groups_RealsObjs",
-    "path":"folders/Objects/Groups_RealsObjs.yy",
+    "name":"Group_Throwable",
+    "path":"folders/Objects/Group_Throwable.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_up_player",
-    "path":"sprites/spr_up_player/spr_up_player.yy",
+    "name":"sprite_blur",
+    "path":"sprites/sprite_blur/sprite_blur.yy",
   },
   "spriteMaskId":null,
   "visible":true,

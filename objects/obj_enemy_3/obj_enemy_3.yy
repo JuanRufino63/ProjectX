@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy2",
+  "%Name":"obj_enemy_3",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy2",
+  "name":"obj_enemy_3",
   "overriddenProperties":[],
   "parent":{
     "name":"Groups_Enemies",
-    "path":"folders/Notes/Objects/Groups_Enemies.yy",
+    "path":"folders/Objects/Groups_Enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy_parent",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy2",
-    "path":"sprites/spr_enemy2/spr_enemy2.yy",
+    "name":"spr_enemy3",
+    "path":"sprites/spr_enemy3/spr_enemy3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

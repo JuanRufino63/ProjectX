@@ -1,5 +1,3 @@
-global.hp_player--;
-
 //knockback system
 // Direção inversa do atacante pro player
 var dir = point_direction(other.x, other.y, x, y); 

@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Groups_Guns",
-    "path":"folders/Notes/Objects/Groups_Guns.yy",
+    "path":"folders/Objects/Groups_Guns.yy",
   },
   "parentObjectId":null,
   "persistent":true,

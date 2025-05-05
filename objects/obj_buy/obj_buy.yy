@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Group_Buttons",
-    "path":"folders/Notes/Objects/Group_Buttons.yy",
+    "path":"folders/Objects/Group_Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

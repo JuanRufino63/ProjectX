@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Groups_ImaginareObjs",
-    "path":"folders/Notes/Objects/Groups_ImaginareObjs.yy",
+    "path":"folders/Objects/Groups_ImaginareObjs.yy",
   },
   "parentObjectId":null,
   "persistent":true,

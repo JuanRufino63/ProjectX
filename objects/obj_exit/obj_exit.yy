@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Groups_RealsObjs",
-    "path":"folders/Notes/Objects/Groups_RealsObjs.yy",
+    "path":"folders/Objects/Groups_RealsObjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
