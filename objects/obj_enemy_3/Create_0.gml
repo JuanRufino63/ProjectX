@@ -2,4 +2,4 @@
 event_inherited();
 speed = 1.7;
 time_vomito = 30;
-hp_inimigo = 4;
+hp_inimigo = 40;

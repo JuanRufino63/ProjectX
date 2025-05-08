@@ -1,5 +1,5 @@
 speed = 2;
-hp_inimigo = 5;
+hp_inimigo = 50;
 
 flash_alpha = 0;
 flash_color = c_white;

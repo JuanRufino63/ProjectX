@@ -1,2 +1,2 @@
-global.hp_player--;
+global.hp_player -= 5;
 instance_destroy();

@@ -1,12 +1,12 @@
 if(room == RoomSafe){
-	draw_text(room_width / 2, room_height, room_timer div 60);
+	draw_text(get_room_width(RoomInicial) / 2 - 22, get_room_height(RoomInicial) -32, room_timer div 60);
 }
 if(room == RoomArcade){
 	//Text Tempo
 	draw_sprite(spr_bar_time, -1, room_width / 2 - 48, room_width / 2);
 	draw_sprite_ext(spr_bar_time_full, -1, room_width / 2 - 48, room_width / 2, 
 					global.spawn_timer_spaceship / global.spawn_total_spaceship , 1, 0, c_white, 1);
-	draw_text(room_width / 2 - 48, room_width / 2, texto_tempo);
+	draw_text(room_width / 2 - 48, room_width / 2, texto_tempo + string(global.spawn_timer_spaceship div 60));
 	//Text Munition
 	var _xx =  room_width * (7 / 8);
 	var _yy = room_height * (7 / 8);
@@ -21,4 +21,7 @@ if(room == RoomArcade or room == RoomSafe){
 	//Text Bones
 	draw_sprite(spr_bone, -1, 96, 180);
 	draw_text(128, 170, string(global.bones));
+	//Text Blood
+	draw_sprite(spr_blood, -1, 96, 210);
+	draw_text(128, 200, string(global.blood));
 }

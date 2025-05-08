@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bones",
+  "%Name":"obj_blood",
   "eventList":[],
   "managed":true,
-  "name":"obj_bones",
+  "name":"obj_blood",
   "overriddenProperties":[],
   "parent":{
     "name":"Group_Throwable",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bone",
-    "path":"sprites/spr_bone/spr_bone.yy",
+    "name":"spr_blood",
+    "path":"sprites/spr_blood/spr_blood.yy",
   },
   "spriteMaskId":null,
   "visible":true,

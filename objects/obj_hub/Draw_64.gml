@@ -14,7 +14,7 @@ draw_rectangle(panel_x + offset, panel_y, panel_x + offset + 300, panel_y + 200,
 draw_set_color(c_white);
 
 // Desenha o texto do HUD
-draw_text(panel_x + offset + 20, panel_y + 20, "Nome: Nitcholas");
+draw_text(panel_x + offset + 20, panel_y + 20, "FORCA: " + string(global.strenght));
 draw_text(panel_x + offset + 20, panel_y + 50, "HP: " + string(global.hp_player));
 draw_text(panel_x + offset + 20, panel_y + 80, "Munição: " + string(global.munition));
 

@@ -39,7 +39,7 @@ if (spawn_timer_enemy <= 0 && global.spawn_timer_spaceship > 0) {
 }
 global.number_enemy = instance_number(obj_enemy_parent);
 if (global.spawn_timer_spaceship <= 0 and create_spaceship == 0 and global.number_enemy <= 0  ) {
-    instance_create_layer(obj_player.x, obj_player.y - 64, "Instances_1", obj_spaceship);
+    instance_create_layer(obj_player.x, obj_player.y - irandom_range(72, 96), "Instances_1", obj_spaceship);
 	create_spaceship = 1;
 } else {
 	if(global.spawn_timer_spaceship > 0){

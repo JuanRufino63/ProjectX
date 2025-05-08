@@ -14,7 +14,7 @@ if (instance_exists(obj_player)) {
 if(hp_inimigo <= 0){
 	instance_destroy();
 	global.number_enemy--;
-	var amount = irandom_range(1, 3); // Quantidade de moedas aleatória
+	var amount = irandom_range(1, 3); // Quantidade de itens dropados aleatória
 	for (var i = 0; i < amount; i++) {
 		var dir_x = 20;
 		var dir_y = 10;
@@ -26,7 +26,13 @@ if(hp_inimigo <= 0){
 			dir_x *= +1;
 			dir_y *= +1;
 		}
-	    instance_create_layer(x + i * dir_x, y + i * dir_y, "Instances_1", obj_bones);
+		if(irandom_range(1, 100) < 80){
+			instance_create_layer(x + i * dir_x, y + i * dir_y, "Instances_1", obj_blood);
+		}
+		else{
+			instance_create_layer(x + i * dir_x, y + i * dir_y, "Instances_1", obj_bones);
+		}
+	    
 	}
 }
 
