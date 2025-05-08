@@ -14,7 +14,6 @@ if (instance_exists(obj_player)) {
 if(hp_inimigo <= 0){
 	instance_destroy();
 	global.number_enemy--;
-	global.exp_player += 100;
 	var amount = irandom_range(1, 3); // Quantidade de moedas aleatória
 	for (var i = 0; i < amount; i++) {
 		var dir_x = 20;

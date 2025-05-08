@@ -8,13 +8,13 @@ y = obj_player.y;
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 //projetil
-if (mouse_check_button(mb_left) and global.munition > 0 and tempo_arma <= 0) {
+if (mouse_check_button(mb_left) and global.munition > 0 and tempo_arma <= 0 and _recarrega = 0){
     var angulo = point_direction(x, y, mouse_x, mouse_y);
 	
     var p = instance_create_layer(x, y, "Instances_1", obj_bala);
     p.direction = angulo;
     p.image_angle = angulo;
-	global.munition --;
+	global.munition--;
 	tempo_arma = 10;
 }
 else{
@@ -22,6 +22,14 @@ else{
 		tempo_arma--;
 	}
 }
-if(mouse_check_button(mb_right)){
+if(mouse_check_button(mb_right) or global.munition <= 0){
+	_recarrega = 1
+}
+if(_recarrega){
+	tempo_recarrega--;
+}
+if (tempo_recarrega <= 0){
 	global.munition = 16;
+	_recarrega = 0;
+	tempo_recarrega = room_speed * 0.5;
 }

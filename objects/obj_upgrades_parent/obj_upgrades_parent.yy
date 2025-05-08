@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_up_shield",
+  "%Name":"obj_upgrades_parent",
   "eventList":[],
   "managed":true,
-  "name":"obj_up_shield",
+  "name":"obj_upgrades_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Groups_Upgrades",

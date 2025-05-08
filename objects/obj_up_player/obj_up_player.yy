@@ -10,8 +10,8 @@
   "name":"obj_up_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Groups_RealsObjs",
-    "path":"folders/Objects/Groups_RealsObjs.yy",
+    "name":"Groups_Upgrades",
+    "path":"folders/Objects/Groups_Upgrades.yy",
   },
   "parentObjectId":null,
   "persistent":false,

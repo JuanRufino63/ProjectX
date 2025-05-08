@@ -1,3 +1,4 @@
+//Pause
 if(global.pause == 1){
 	exit;
 }
@@ -19,7 +20,7 @@ else if(keyboard_check(vk_down)){
 if(keyboard_check(ord("L"))){
 	game_restart();
 }
-#region Knockback system
+  #region Knockback system
 //knockback system
 if (knockback_timer > 0) {
     // Move com knockback
@@ -54,12 +55,8 @@ if(global.hp_player <= 0){
 	show_message("Você morreu!");
 	game_restart();
 }
-if(global.exp_player >= lvl_up){
-	lvl_player++;
-	lvl_up += int64(lvl_up + lvl_up * 0.2);
-	global.exp_player = 0;
-}
-	
+
+
 #endregion
 
 
