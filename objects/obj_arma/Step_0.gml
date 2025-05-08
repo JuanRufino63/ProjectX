@@ -8,7 +8,8 @@ y = obj_player.y;
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 //projetil
-if (mouse_check_button(mb_left) and global.munition > 0 and tempo_arma <= 0 and _recarrega = 0){
+if (mouse_check_button(mb_left) and global.munition > 0 and tempo_arma <= 0 and _recarrega = 0
+	and room == RoomArcade){
     var angulo = point_direction(x, y, mouse_x, mouse_y);
 	
     var p = instance_create_layer(x, y, "Instances_1", obj_bala);

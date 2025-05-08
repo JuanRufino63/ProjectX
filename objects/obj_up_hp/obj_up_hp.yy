@@ -13,7 +13,10 @@
     "name":"Groups_Upgrades",
     "path":"folders/Objects/Groups_Upgrades.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_upgrades_parent",
+    "path":"objects/obj_upgrades_parent/obj_upgrades_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_upgrades_parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_arma_parent",
+  "eventList":[],
   "managed":true,
-  "name":"obj_upgrades_parent",
+  "name":"obj_arma_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Groups_Upgrades",
-    "path":"folders/Objects/Groups_Upgrades.yy",
+    "name":"Groups_Guns",
+    "path":"folders/Objects/Groups_Guns.yy",
   },
   "parentObjectId":null,
   "persistent":false,

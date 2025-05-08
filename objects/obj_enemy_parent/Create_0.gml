@@ -1,3 +1,7 @@
+// Knockback
+knockback_speed = 0;
+knockback_dir = 0;
+
 speed = 2;
 hp_inimigo = 50;
 

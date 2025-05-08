@@ -58,6 +58,14 @@ if(global.hp_player <= 0){
 
 
 #endregion
-
+#region Controles
+if(keyboard_check_released(ord("E")) and tempo_espera <= 0 and room == RoomArcade){
+	instance_create_layer(obj_player.x, obj_player.y, "Instances_1", obj_bomb);
+	tempo_espera = room_speed * 5;
+}
+else if(tempo_espera > 0){
+	tempo_espera--;
+}
+#endregion
 
 

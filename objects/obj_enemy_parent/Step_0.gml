@@ -45,4 +45,13 @@ if(isHit){
 if(flash_alpha > 0){
 	flash_alpha -= 0.05
 }
-//Sistema de colisão entre inimigos?
+//Knockback Sytem
+// Aplica knockback se tiver velocidade
+if (knockback_speed > 0) {
+    x += lengthdir_x(knockback_speed, knockback_dir);
+    y += lengthdir_y(knockback_speed, knockback_dir);
+    
+    // Desacelera o knockback aos poucos
+    knockback_speed -= 1;
+}
+

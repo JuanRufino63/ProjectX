@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_blur",
-    "path":"sprites/sprite_blur/sprite_blur.yy",
+    "name":"spr_blur",
+    "path":"sprites/spr_blur/spr_blur.yy",
   },
   "spriteMaskId":null,
   "visible":true,
