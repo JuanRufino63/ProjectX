@@ -24,4 +24,5 @@ if(room == RoomArcade or room == RoomSafe){
 	//Text Blood
 	draw_sprite(spr_blood, -1, 96, 210);
 	draw_text(128, 200, string(global.blood));
+	//Text inventory
 }
